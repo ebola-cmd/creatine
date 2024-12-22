@@ -1,0 +1,368 @@
+.rectangle-text {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #525252;
+    color: #f0d5b5;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 75px;
+}
+
+.text {
+    font-family: "Press Start 2P", serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #f0d5b5;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.bio {
+    font-family: "Press Start 2P", serif;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: -1px;
+    font-weight: lighter;
+    color: #525252;
+    width: 625px;
+    margin-top: 160px;
+    text-align: justify;
+    word-wrap: break-word;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bio1 {
+    font-family: "Press Start 2P", serif;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: -1px;
+    font-weight: lighter;
+    color: #525252;
+    width: 625px;
+    margin-top: 895px;
+    text-align: justify;
+    word-wrap: break-word;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.d1 {
+    width: 660px;
+    height: 2px;
+    background-color: #525252;
+    margin-top: 525px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rectangle-text1 {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #525252;
+    color: #f0d5b5;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 600px;
+}
+
+.text1 {
+    font-family: "Press Start 2P", serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.d2 {
+    width: 100px;
+    height: 2px;
+    background-color: #525252;
+    margin-top: 690px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.d3 {
+    width: 660px;
+    height: 2px;
+    background-color: #525252;
+    margin-top: 1080px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.rectangle-text2 {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #525252;
+    color: #f0d5b5;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 755px;
+}
+
+.text2 {
+    font-family: "Press Start 2P", serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+.rectangle-text3 {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #525252;
+    color: #f0d5b5;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1155px;
+}
+
+.text3 {
+    font-family: "Press Start 2P", serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.retro-box-container {
+    display: flex;
+    justify-content: center; /* Center all boxes horizontally */
+    gap: 20px; /* Space between boxes */
+    position: absolute; /* Position the whole container */
+    top: 825px; /* Adjust vertical position */
+    left: 50%; /* Center the container */
+    transform: translateX(-50%); /* Align to the center horizontally */
+}
+
+.retro-box {
+    width: 113px;
+    padding: 10px;
+    background: #f0d5b5;
+    border: 2px solid #525252;
+    font-family: "Press Start 2P", serif;
+    color: #525252;
+    text-align: center;
+    font-size: 11px;
+    position: relative; /* Required for the pseudo-elements */
+}
+
+.retro-box::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: -6px;
+    bottom: -6px;
+    left: 6px;
+    background: #525252;
+    z-index: -1;
+}
+
+.retro-box::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: -4px;
+    bottom: -4px;
+    left: 4px;
+    background: #525252;
+    z-index: -2;
+}
+.cssbattle-area {
+    background-color: #f0d5b5;
+    border: 2px solid #525252;
+    top: 1240px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 550px;
+    font-family: "Press Start 2P", serif;
+    color: #525252;
+    text-align: center;
+    position: relative;
+}
+
+.cssbattle-area::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: -6px;
+    bottom: -6px;
+    left: 6px;
+    background: #525252;
+    z-index: -1;
+}
+
+.cssbattle-area::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: -4px;
+    bottom: -4px;
+    left: 4px;
+    background: #525252;
+    z-index: -2;
+}
+
+.cssbattle-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #f0d5b5;
+    background-color: #525252;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.cssbattle-stats {
+    margin-top: 10px;
+}
+
+.stat-item {
+    font-size: 12px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-title {
+    font-weight: bold;
+}
+
+.stat-value {
+    color: #525252;
+}
+.valorant-area {
+    background-color: #f0d5b5;
+    border: 2px solid #525252;
+    top: 1260px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 550px;
+    font-family: "Press Start 2P", serif;
+    color: #525252;
+    text-align: center;
+    position: relative;
+}
+
+.valorant-area::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: -6px;
+    bottom: -6px;
+    left: 6px;
+    background: #525252;
+    z-index: -1;
+}
+
+.valorant-area::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: -4px;
+    bottom: -4px;
+    left: 4px;
+    background: #525252;
+    z-index: -2;
+}
+
+.valorant-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #f0d5b5;
+    background-color: #525252;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.valorant-stats {
+    margin-top: 10px;
+}
+
+.stat-itemv {
+    font-size: 12px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-titlev {
+    font-weight: bold;
+}
+
+.stat-valuev {
+    color: #525252;
+}
+.fitness-area {
+    background-color: #f0d5b5;
+    border: 2px solid #525252;
+    top: 1280px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 550px;
+    font-family: "Press Start 2P", serif;
+    color: #525252;
+    text-align: center;
+    position: relative;
+}
+
+.fitness-area::before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: -6px;
+    bottom: -6px;
+    left: 6px;
+    background: #525252;
+    z-index: -1;
+}
+
+.fitness-area::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: -4px;
+    bottom: -4px;
+    left: 4px;
+    background: #525252;
+    z-index: -2;
+}
+
+.fitness-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #f0d5b5;
+    background-color: #525252;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.fitness-stats {
+    margin-top: 10px;
+}
+
+.stat-itemf {
+    font-size: 12px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-titlef {
+    font-weight: bold;
+}
+
+.stat-valuef {
+    color: #525252;
+}
